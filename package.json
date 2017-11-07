@@ -1,0 +1,33 @@
+{
+  "name": "d3-geo-map",
+  "version": "1.0.0",
+  "description": "Base on d3.js V4 and lodash, use geojson draws map.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ada87/d3-geo-map.git"
+  },
+  "author": "http://www.xdnote.com/",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "copy-webpack-plugin": "^4.1.1",
+    "css-loader": "^0.28.7",
+    "html-loader": "^0.5.1",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "source-map-loader": "^0.2.2",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.7.1"
+  },
+  "dependencies": {
+    "d3": "^4.11.0",
+    "lodash": "^4.17.4",
+    "topojson": "^3.0.2"
+  }
+}

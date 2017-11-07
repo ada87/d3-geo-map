@@ -1,0 +1,65 @@
+.v-map{
+    g.v-group-background{
+        pointer-events: none;
+        path{
+            fill:rgba(#396D82, 0.25);
+        }
+    }
+    //地区样式
+    g.v-item{
+        .v-area{
+            stroke-width: 0.1;
+            stroke: #cccccc;
+            fill:rgba(#000000, 0.4);
+        }
+        .v-label{
+            fill:rgba(white,0.3);
+            text-anchor: middle;
+            font-size: 10px;
+        }
+        &:hover{
+            .v-area{
+                fill:rgba(red, 0.6);
+            }
+            .v-label{
+                fill:rgba(white,0.8);
+            }
+        }
+    }
+    g.v-item-selected{
+        .v-area{
+            stroke-width: 0.5;
+            filter:url(#f-shadow);
+        }
+    }
+    //条形图样式
+    .v-bar{
+        cursor: pointer;
+        fill:url(#f-bar);
+        fill-opacity:0.5;
+        &:hover{
+            fill:url(#f-bar-hover);
+            fill-opacity:0.8;
+        }
+    }
+    //连线样式
+    .v-line{
+        cursor: pointer;
+        stroke-width: 0.4;
+        stroke: url(#f-line);
+        fill: transparent;
+    }
+    .v-line-point{
+        stroke: url(#f-line-point);
+    }
+    //飞线样式
+    .v-fly-line{
+        stroke: url(#f-fly);
+        fill: transparent;
+    }
+    //扩散点样式
+    .v-point{
+        fill: url(#f-point);
+        pointer-events: none;
+    }
+}
