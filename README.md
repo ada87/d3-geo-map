@@ -1,6 +1,6 @@
 # D3-GEO-MAP
 
-[点击这里看一个DEMO](http://www.xdnote.com/test/d3-geo-map/);
+[点击这里看一个DEMO](http://www.xdnote.com/test/d3-geo-map/index.html);
 
 ## 项目说明
 
@@ -24,9 +24,6 @@ features = topojson.feature(json,json.object.xxx).features;
 
 ## 使用说明
 
-由于地图定制化很强，在各项目中都是千变万化，所以仅提供源码方式使用，鼓励将所需要的部分代码复制到项目中修改并使用。本项目使用webpack.
-
-本人的功力和时间都有限，只是总结了一些地图上各种元素的排布绘制API，源码还算的上是模块分明，尽量简单粗暴一点，改起来比较直接！
 
 ### 配置项
 
@@ -101,3 +98,11 @@ features = topojson.feature(json,json.object.xxx).features;
 ### 自定义样式
 
 所有样式均在 `style.scss` 和 `style.html` 里面，可以根据自己需要进行扩展
+
+### 总结
+
+由于地图定制化很强，在各项目中都是千变万化，所以仅提供源码方式使用，鼓励将所需要的部分代码复制到实际的项目中，**根据实际要求修改并使用**。
+
+本人的功力和时间都有限，只是总结了一些地图上各种元素的排布绘制API，源码还算的上是模块分明，尽量简单粗暴一点，改起来比较直接！
+
+
