@@ -4,15 +4,7 @@ class Comment{
     resize(){
 
     }
-    mouseover(){
 
-    }
-    mouseout(){
-        
-    }
-    click(){
-
-    }
     GenId(){
         return ++__IDGEN;
     }

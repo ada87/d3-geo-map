@@ -1,4 +1,4 @@
-var Config = require('../utils/Config');
+var Config = require('../__Config');
 var Comment = require('./__Comment');
 
 class Point extends Comment{

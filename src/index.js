@@ -1,9 +1,9 @@
 require('./style.scss');
 var defs = require('./style.html');
 
-var Config = require('./utils/Config');
-var Tip = require('./utils/Tip');
-var MapBuilder = require('./utils/__MapBuilder');
+var Config = require('./__Config');
+var Tip = require('./__Tip');
+var MapBuilder = require('./__MapBuilder');
 
 //引用组件
 var EffectBar = require('./components/__Bar');
@@ -58,7 +58,7 @@ Config.extend({
 var ROOT, Container, WIDTH, HEIGHT, PHEIGHT, THEIGHT;
 
 
-class VisualMap {
+class D3GeoMap {
 
     constructor(json, element, config) {
         //自定义配置
@@ -248,4 +248,4 @@ class VisualMap {
 
 }
 
-module.exports = VisualMap;
+module.exports = D3GeoMap;

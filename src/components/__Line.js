@@ -1,4 +1,4 @@
-var Config = require('../utils/Config');
+var Config = require('../__Config');
 var Comment = require('./__Comment');
 var line = d3.line().curve(d3.curveCatmullRom).x(d => d[0]).y(d => d[1]);
 
