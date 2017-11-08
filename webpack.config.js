@@ -1,6 +1,5 @@
 var path = require('path');
 var CopyWebpackPlugin = require('copy-webpack-plugin');
-var _ = require('lodash');
 
 //  Base配置 打包文件配置
 var entry = {

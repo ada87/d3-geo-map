@@ -1,7 +1,7 @@
 {
   "name": "d3-geo-map",
   "version": "1.0.0",
-  "description": "Base on d3.js V4 and lodash, use geojson draws map.",
+  "description": "Base on d3.js V4 and lodash, use geojson to draw map.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,7 +27,6 @@
   },
   "dependencies": {
     "d3": "^4.11.0",
-    "lodash": "^4.17.4",
-    "topojson": "^3.0.2"
+    "lodash": "^4.17.4"
   }
 }
