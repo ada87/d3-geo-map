@@ -24,6 +24,13 @@ features = topojson.feature(json,json.object.xxx).features;
 
 ## 使用说明
 
+水平有限，建议直接通过源码修改：
+
+1. clone 或者 download 本项目
+2. 复制 `src` 文件夹到项目，可改名
+3. 如果使用 `webpack` 可以使用 commonJS 引入 var D3Map = require('../src');
+4. 编写代码 `var map = new D3Map(json,document.getElementById('id'),config)` ;
+
 
 ### 配置项
 
